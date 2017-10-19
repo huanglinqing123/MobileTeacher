@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical" >
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="0dp" 
+        android:background="@drawable/head"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+         <com.example.yidongjiajiao.Round
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tou1" >
+        </com.example.yidongjiajiao.Round>
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="移动家教平台"></TextView>
+    </LinearLayout>
+</LinearLayout>

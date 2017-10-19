@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/android-async-http-1.4.9.jar"/>
+	<classpathentry kind="lib" path="libs/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="libs/happy-dns-0.2.11.jar"/>
+	<classpathentry kind="lib" path="libs/okhttp-3.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/okio-1.9.0.jar"/>
+	<classpathentry kind="lib" path="libs/qiniu-android-sdk-7.3.2.jar"/>
+	<classpathentry kind="lib" path="libs/glide-3.7.0.jar"/>
+	<classpathentry kind="lib" path="libs/qiniu-java-sdk-7.2.2.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

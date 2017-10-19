@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yidongjiajiao"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.yidongjiajiao.Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Regeister"
+            android:label="@string/title_activity_regeister" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Xueshengzhanghu"
+            android:label="@string/title_activity_regeister" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Guanliyuan"
+            android:label="@string/title_activity_guanliyuan" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Jiaoshixiangxi"
+            android:label="@string/title_activity_jiaoshixiangxi" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Teacher"
+            android:label="@string/title_activity_teacher" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Jiaoshizhanghu"
+            android:label="@string/title_activity_jiaoshizhanghu" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Mystudent"
+            android:label="@string/title_activity_mystudent" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Mykecheng"
+            android:label="@string/title_activity_mykecheng" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Genggaikecheng"
+            android:label="@string/title_activity_genggaikecheng" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Kechengpinglun"
+            android:label="@string/title_activity_kechengpinglun" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Addkecheng"
+            android:label="@string/title_activity_addkecheng" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Student"
+            android:label="@string/title_activity_student" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Jiaoshizhuangtai"
+            android:label="@string/title_activity_jiaoshizhuangtai" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Zhuangtai"
+            android:label="@string/title_activity_zhuangtai" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Xiangxinjs"
+            android:label="@string/title_activity_xiangxinjs" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Xinxi"
+            android:label="@string/title_activity_xinxi" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Myteacher"
+            android:label="@string/title_activity_myteacher" >
+        </activity>
+        <activity
+            android:name="frament.Guanlizhanghu"
+            android:label="@string/title_activity_guanlizhanghu" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Mystudentxiangqing"
+            android:label="@string/title_activity_mystudentxiangqing" >
+        </activity>
+        <activity
+            android:name="com.example.yidongjiajiao.Myteacherxiangqing"
+            android:label="@string/title_activity_myteacherxiangqing" >
+        </activity>
+    </application>
+
+</manifest>
